@@ -1,0 +1,16 @@
+[
+{
+  "modid": "scarlet",
+  "name": "Scarlet (Working Title)",
+  "description": "Flandre Scarlet was here.",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "http://harpbeta.tk",
+  "updateUrl": "",
+  "authorList": ["zsoltisawesome"],
+  "credits": "Paint.NET, for being so helpful in texture creation.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
