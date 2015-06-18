@@ -39,7 +39,7 @@ public class BlockDict {
 		//gBrick = new GOBlock(Material.iron).setBlockName("gBrick").setCreativeTab(MCreativeTabs.tabGold).setBlockTextureName(RefStrings.MODID + ":gold_brick").setHardness(2.0F);
 		//gTrapDoor = new GOTrapDoor(Material.iron).setBlockName("gTrapDoor").setCreativeTab(MCreativeTabs.tabGold).setBlockTextureName(RefStrings.MODID + ":gold_trapdoor").setHardness(3.0F);
 		scarlet_ore = new Ore(ItemDict.scarlet, true).setBlockName("scarlet_ore").setBlockTextureName(Strings.MODID + ":scarlet_ore").setHardness(4.0F).setLightLevel(0.25F).setResistance(-1F);
-		scarlet_cake = new Cake().setHardness(0.5F).setStepSound(Block.soundTypeCloth).setBlockName("scarlet_cake").setBlockTextureName("scarlet_cake");
+		scarlet_cake = new Cake().setHardness(0.5F).setStepSound(Block.soundTypeCloth).setBlockName("scarlet_cake").setBlockTextureName(Strings.MODID + ":scarlet_cake");
 	}
 	public static void registerBlock(){
 		//GameRegistry.registerBlock(ComGold, ComGold.getUnlocalizedName());
