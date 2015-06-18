@@ -1,5 +1,6 @@
 package com.zsoltisawesome.scarlet.Main;
 
+import com.zsoltisawesome.scarlet.Block.BlockDict;
 import com.zsoltisawesome.scarlet.Item.ItemDict;
 
 import net.minecraft.init.Blocks;
@@ -16,6 +17,7 @@ public class CraftingDict {
 	public static void addCraftingRec(){
 		//Shaped
 		GameRegistry.addRecipe(new ItemStack(ItemDict.enragedScarlet, 1), new Object []{"GDG","DSD","GDG",'G',Blocks.glass_pane,'D',new ItemStack(Items.dye, 1, 1),'S',ItemDict.scarlet});
+		GameRegistry.addRecipe(new ItemStack(BlockDict.scarlet_cake, 1), new Object[]{"Y","X",'X',Items.cake,'Y',ItemDict.scarlet});
 		//GameRegistry.addRecipe(new ItemStack(MBlock.ComGold, 1), new Object[]{"XXX","XXX","XXX",'X',Blocks.gold_block});
 		//GameRegistry.addRecipe(new ItemStack(MBlock.ComGold, 1), new Object[]{"XXX","XXX","XXX",'X',MItem.gIngot});
 		//GameRegistry.addRecipe(new ItemStack(MItem.gStick, 1), new Object[]{"XXX","XYX","XXX",'X',MItem.gIngot, 'Y',Items.stick});
