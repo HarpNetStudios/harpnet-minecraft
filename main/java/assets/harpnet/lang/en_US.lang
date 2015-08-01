@@ -1,0 +1,11 @@
+item.scarlet.name=Scarlet
+item.enragedScarlet.name=Enraged Scarlet
+item.harpnetLogo.name=HarpNet Logo
+item.harpnetSword.name=HarpNet Sword
+item.harpnetSwordCharged.name=HarpNet Sword (Charged)
+
+tile.scarlet_ore.name=Scarlet Ore
+tile.scarlet_cake.name=Scarlet Cake
+tile.harpnet_plank.name=HarpNet Planks
+
+itemGroup.harpnetTab=HarpNet Mod
