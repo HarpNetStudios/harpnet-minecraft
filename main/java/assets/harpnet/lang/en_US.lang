@@ -6,8 +6,11 @@ item.harpnetSwordCharged.name=HarpNet Sword (Charged)
 
 tile.scarlet_ore.name=Scarlet Ore
 tile.scarlet_cake.name=Scarlet Cake
+tile.birthday_cake.name=Birthday Cake
+tile.birthday_cake_zsolt.name=Birthday Cake (Zsolt's Birthday)
 tile.harpnet_plank.name=HarpNet Planks
 
 entity.HumanTest.name=Sam (Minetest Character)
+entity.flandre.name=Flandre Scarlet
 
 itemGroup.harpnetTab=HarpNet Mod

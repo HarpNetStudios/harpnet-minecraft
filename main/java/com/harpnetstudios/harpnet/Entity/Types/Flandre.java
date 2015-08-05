@@ -7,7 +7,10 @@ import net.minecraft.entity.ai.*;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class Flandre extends EntityMob{
@@ -35,9 +38,9 @@ public class Flandre extends EntityMob{
     {
         super.applyEntityAttributes();
         this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(80.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.8D);
+        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.6D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(420.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(400.0D);
         this.getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(1.0D);
 
     }
@@ -45,5 +48,10 @@ public class Flandre extends EntityMob{
     public boolean isAIEnabled()
     {
         return true;
+    }
+
+    protected void addRandomArmor()
+    {
+        this.setCurrentItemOrArmor(0, new ItemStack(Item.getItemFromBlock(Blocks.red_flower)));
     }
 }
