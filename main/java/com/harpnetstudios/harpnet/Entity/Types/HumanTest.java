@@ -32,7 +32,7 @@ public class HumanTest extends EntityMob{
     {
         super.applyEntityAttributes();
         this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(40.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.23000000417232513D);
+        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.46D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(3.0D);
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(-1.0D);
