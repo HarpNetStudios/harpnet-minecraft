@@ -1,0 +1,16 @@
+[
+{
+  "modid": "harpnet",
+  "name": "HarpNet Mod",
+  "description": "Flandre Scarlet was here.",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "http://harpnet.mooo.com",
+  "updateUrl": "",
+  "authorList": ["zsoltisawesome"],
+  "credits": "Paint.NET, for being so helpful in texture creation and all the many helpful Java tutorials on YouTube",
+  "logoFile": "/hn.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
