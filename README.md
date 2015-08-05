@@ -12,4 +12,6 @@ Flandre Scarlet was here!
 Changelogs!
 Yay!
 
+(Unfortunately) does not contain hentai! 
+
 Licensed under the Unlicense, unless otherwise stated in LICENSE files located next to files.
