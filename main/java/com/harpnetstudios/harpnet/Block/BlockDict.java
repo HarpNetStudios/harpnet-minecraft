@@ -33,6 +33,7 @@ public class BlockDict {
 	public static Block birthday_cake;
 	public static Block harpnet_plank;
 	public static Block harpnet_table;
+	public static Block GLOW;
 	
 	public static void initializeBlock(){
 		Calendar calendar = Calendar.getInstance();
@@ -55,6 +56,7 @@ public class BlockDict {
 		}
 		harpnet_plank = new Plank().setCreativeTab(TabDict.tabHarpNet).setHardness(1.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_plank").setBlockTextureName(Strings.MODID + ":planks_harpnet");
 		harpnet_table = new Crafting(true).setCreativeTab(TabDict.tabHarpNet).setHardness(1.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_table").setBlockTextureName(Strings.MODID + ":harpnet_table");
+		GLOW = new GLOW().setBlockName("GLOW").setBlockTextureName(Strings.MODID + ":GLOW");
 	}
 	public static void registerBlock(){
 		//GameRegistry.registerBlock(ComGold, ComGold.getUnlocalizedName());
