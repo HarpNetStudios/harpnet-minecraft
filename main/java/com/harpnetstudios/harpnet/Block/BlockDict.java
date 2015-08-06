@@ -75,5 +75,7 @@ public class BlockDict {
 		GameRegistry.registerBlock(birthday_cake, birthday_cake.getUnlocalizedName());
 		GameRegistry.registerBlock(harpnet_plank, harpnet_plank.getUnlocalizedName());
 		GameRegistry.registerBlock(harpnet_table, harpnet_table.getUnlocalizedName());
+		GameRegistry.registerBlock(GLOW, GLOW.getUnlocalizedName());
+		GameRegistry.registerBlock(hurt, hurt.getUnlocalizedName());
 	}
 }
