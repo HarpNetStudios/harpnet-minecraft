@@ -3,6 +3,7 @@ package com.harpnetstudios.harpnet.Entity;
 import com.harpnetstudios.harpnet.Entity.Types.*; //Shut up, I know wildcard imports are bad practice. Don't care.
 import com.harpnetstudios.harpnet.Main.MainRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.EnumCreatureType;
 
@@ -19,7 +20,7 @@ public class EntityDict {
         Random random = new Random(x);
         int mainColor; // Main egg color
         int subColor; // Egg spots color
-        if (name == "flandre") {
+        if (name == "Flandre") {
             mainColor = 16720896; // Scarlet (#FF2400)
             subColor = 16777215; // Pure White (#FFFFFF)
         }else{
@@ -35,6 +36,6 @@ public class EntityDict {
 
     public static void entityList() {
         addHostile(HumanTest.class, "HumanTest");
-        addHostile(Flandre.class, "flandre");
+        addHostile(Flandre.class, "Flandre");
     }
 }

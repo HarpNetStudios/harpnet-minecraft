@@ -15,7 +15,7 @@ public class HumanTest extends EntityMob{
 
         this.tasks.addTask(0, new EntityAISwimming(this));
         this.tasks.addTask(1, new EntityAIOpenDoor(this, true));
-        //this.tasks.addTask(2, new EntityAIAvoidEntity(this, EntityPlayer.class, 8.0F, 0.6D, 0.6D));
+        this.tasks.addTask(2, new EntityAIAvoidEntity(this, EntityLiving.class, 8.0F, 0.6D, 0.6D));
         this.tasks.addTask(3, new EntityAIWander(this, 1.0D));
         this.tasks.addTask(4, new EntityAIMoveIndoors(this));
         this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityLiving.class, 8.0F));

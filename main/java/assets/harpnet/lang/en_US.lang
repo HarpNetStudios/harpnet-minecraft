@@ -9,8 +9,10 @@ tile.scarlet_cake.name=Scarlet Cake
 tile.birthday_cake.name=Birthday Cake
 tile.birthday_cake_zsolt.name=Birthday Cake (Zsolt's Birthday)
 tile.harpnet_plank.name=HarpNet Planks
+tile.harpnet_plank_fence.name=HarpNet Fence
+tile.harpnet_trapdoor.name=HarpNet Trapdoor
 
 entity.HumanTest.name=Sam (Minetest Character)
-entity.flandre.name=Flandre Scarlet
+entity.Flandre.name=Flandre Scarlet
 
 itemGroup.harpnetTab=HarpNet Mod

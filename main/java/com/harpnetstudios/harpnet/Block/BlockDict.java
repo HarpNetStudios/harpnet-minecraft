@@ -32,9 +32,9 @@ public class BlockDict {
 	public static Block scarlet_cake;
 	public static Block birthday_cake;
 	public static Block harpnet_plank;
-	public static Block harpnet_table;
 	public static Block hurt;
-	public static Block GLOW;
+	public static Block harpnet_plank_fence;
+	public static Block harpnet_trapdoor;
 	
 	public static void initializeBlock(){
 		Calendar calendar = Calendar.getInstance();
@@ -55,10 +55,12 @@ public class BlockDict {
 		{
 			birthday_cake.setCreativeTab(TabDict.tabHarpNet).setBlockName("birthday_cake_zsolt");
 		}
-		harpnet_plank = new Plank().setCreativeTab(TabDict.tabHarpNet).setHardness(1.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_plank").setBlockTextureName(Strings.MODID + ":planks_harpnet");
-		harpnet_table = new Crafting(true).setCreativeTab(TabDict.tabHarpNet).setHardness(1.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_table").setBlockTextureName(Strings.MODID + ":harpnet_table");
-		GLOW = new GLOW().setBlockName("GLOW").setBlockTextureName(Strings.MODID + ":GLOW");
-		hurt = new Hurt().setBlockName("hurt_block").setBlockTextureName(Strings.MODID + ":effect_block_poison");
+		harpnet_plank = new Plank().setCreativeTab(TabDict.tabHarpNet).setHardness(1.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_plank").setBlockTextureName(Strings.MODID + ":planks_harpnet");;
+		hurt = new EffectBlock(9,30,3).setBlockName("hurt_block").setBlockTextureName(Strings.MODID + ":effect_block_poison");
+		harpnet_plank_fence = new Fence(Strings.MODID + ":planks_harpnet",Material.wood).setCreativeTab(TabDict.tabHarpNet).setHardness(2.0F).setResistance(5.0F).setStepSound(Block.soundTypeWood).setBlockName("harpnet_plank_fence");
+		//harpnet_door = new Door(Material.wood, null).setHardness(5.0F).setStepSound(Block.soundTypeMetal).setBlockName("gDoor").setBlockTextureName(RefStrings.MODID + ":door_gold");
+		harpnet_trapdoor = new Trapdoor(Material.wood).setBlockName("harpnet_trapdoor").setCreativeTab(TabDict.tabHarpNet).setBlockTextureName(Strings.MODID + ":planks_harpnet").setHardness(3.0F);
+
 	}
 	public static void registerBlock(){
 		//GameRegistry.registerBlock(ComGold, ComGold.getUnlocalizedName());
@@ -74,8 +76,9 @@ public class BlockDict {
 		GameRegistry.registerBlock(scarlet_cake, scarlet_cake.getUnlocalizedName());
 		GameRegistry.registerBlock(birthday_cake, birthday_cake.getUnlocalizedName());
 		GameRegistry.registerBlock(harpnet_plank, harpnet_plank.getUnlocalizedName());
-		GameRegistry.registerBlock(harpnet_table, harpnet_table.getUnlocalizedName());
-		GameRegistry.registerBlock(GLOW, GLOW.getUnlocalizedName());
+		GameRegistry.registerBlock(harpnet_plank_fence, harpnet_plank_fence.getUnlocalizedName());
 		GameRegistry.registerBlock(hurt, hurt.getUnlocalizedName());
+		GameRegistry.registerBlock(harpnet_trapdoor, harpnet_trapdoor.getUnlocalizedName());
+
 	}
 }
